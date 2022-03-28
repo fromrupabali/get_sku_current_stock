@@ -1,6 +1,6 @@
 const { getSkuStock } = require("./controllers/getSkuStock");
 
-describe("Test all diferent cases og get sku stock", () => {
+describe("Test all diferent cases to get sku stock", () => {
   it("Get the current sku stok correct result", () => {
     expect(getSkuStock("LTV719449/39/39")).toBe(8472);
   });
